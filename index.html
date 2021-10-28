@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container-main-section">
+        <h1 class="main-title">Agregar</h1>
+    <div class="partyroom">
+        
+        <div>
+        <h1 class="title">ID</h1>
+        <input class="input" type="number" id="id" placeholder="id" required>
+        </div>
+        <div>
+        <h1 class="title">Owner</h1>
+        <input class="input" type="text" id="owner" placeholder="owner" required>
+        </div>
+        <div>
+        <h1 class="title">Capacity</h1>
+        <input class="input" type="number" id="capacity" placeholder="capacity" required>
+        </div>
+        <div>
+        <h1 class="title">Category_id</h1>
+        <input class="input" type="number" id="category_id" placeholder="category_id" required>
+        </div>
+        <div>
+        <h1 class="title">Name</h1>
+        <input class="input" type="text" id="name" placeholder="name" required>
+            </div>
+
+        <div class="botones">
+            <button onclick="guardarInformacion()" >Agregar</button>
+            <button onclick ="editarInformacion()">Actualizar</button>
+            <button onclick="traerInformacion()">Consultar</button>
+        </div>    
+
+    </div>
+</div>
+
+    <div id="resultado"></div>
+    <div class="content">
+        <img class="img-user" src="https://cdn.pixabay.com/photo/2018/05/01/15/06/user-3365840_960_720.png" alt="" >
+        <h1 class="title first">Agrega un cliente!</h1>
+        <h1 class="title">Id</h1>
+            <input id="idclient" class="input" type="number" placeholder="id" >
+        <h1 class="title">Name<h1>
+            <input id="nameclient" class="input"type="text" placeholder="Name">
+        <h1 class="title">Email</h1>
+        <input id="email" class="input" type="email" placeholder="email">
+        <h1 class="title">Age</h1>
+            <input id="age" class="input"type="number" placeholder="age">
+            <div class="btn-client">
+                <button onclick="editarInformacionClient()">actualizar</button>
+                <button onclick="traerInformacionClient()">Consultar</button>
+            </div>
+            <button  onclick="guardarInformacionClient()">Agregar</button>
+        </div>
+
+        <div id="resultado2"></div>
+
+        
+        <div class="cont-salones">
+            <div class="add-salones">
+            <h1 class="title">Agrega un mensaje</h1>
+            <h1 class="title  sal">Id</h1>
+            <input id="idmessage" type="number" class="input">
+            <button onclick="guardarInformacionMessage()">Agregar mensaje</button>
+            <div class="btn-message">
+                <button onclick="editarInformacionMessage()">Actualizar</button>
+                <button  onclick="traerInformacionMessage()">Consultar</button>
+            </div>
+            </div>
+            <div class="cont-mensajes">
+                    <textarea name="" id="messagetext" cols="70" rows="27"></textarea>
+            </div>
+        </div>
+        <div id="resultado3"></div>
+        
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/misfunciones.js"></script>
+  
+</body>
+</html>

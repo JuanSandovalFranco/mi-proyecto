@@ -1,0 +1,234 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.container-main-section{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main-title{
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 80px;
+}
+.partyroom{
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    height: 400px;
+    gap: 0px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones > button{
+    outline: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 250px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #5599ff;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.botones > button:hover , td button:hover{
+    background-color: #4f88dd;
+}
+
+
+
+.partyroom .input{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.img-user{
+
+    width: 100px;
+    position:relative;
+    top: 0px;
+    left:0px;
+}
+
+.title{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    width: 410px;
+}
+
+.first{
+    font-size: 30px;
+    text-align: center;
+}
+.content{
+
+    background: rgb(219, 219, 219);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 700px;
+    width: 550px;
+    position: relative;
+    left:0;
+    margin:100px auto 100px auto;
+    box-shadow: 10px 10px 20px grey;
+    
+}
+
+.input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    width: 400px;
+    padding: 1em;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+
+
+.content > button{
+
+    margin-top: 40px;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    background-color:#5599ff;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    width:590px;
+    height: 100px;
+    border-radius:0px 0px 15px 15px ;
+}
+
+.btn-client > button{
+    margin: 50px 5px 20px 0px ;
+    width: 230px;
+    color: white;
+    background-color: #272727;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 15px;   
+}
+
+.cont-salones{
+
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 100px;
+    padding: 40px;
+    background-color:#5599ff;
+    height: 600px;
+}
+
+.cont-salones:first-child{
+    text-align: center;
+}
+
+.content button{
+    cursor: pointer;
+}
+
+.sal{
+    margin:20px 0px ;
+}
+
+.cont-salones  button{
+    margin-top: 40px;
+    width: 430px;
+    color: white;
+    background-color: #272727;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.cont-salones button:hover{
+    background-color: #3f3f3f;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    cursor: pointer;
+}
+
+.cont-salones  h1{
+    color: white;
+}
+
+.cont-salones input{
+    border-bottom:2px solid white;
+    color: white;
+}
+
+.first{
+    text-align: center;
+}
+
+#messagetext{
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 20px;
+    border: none;
+}
+
+.btn-message{
+    display: flex;
+
+}
+
+.btn-message > button{
+    margin-right: 20px;
+    width: 205px;
+}
+
+#resultado , #resultado2 , #resultado3{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    font-family: sans-serif;
+    background-color:#dfdfdf;
+    margin: 30px 0px;
+    border-radius: 20px;
+    
+
+}
+
+td , th{
+    padding: 20px;
+}
+
+td button{
+    padding: 15px;
+    background-color: #5599ff;
+    color: white;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
